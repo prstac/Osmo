@@ -41,7 +41,7 @@ public class Main {
         do {
             System.out.println("Unesite niz znakova za provjeru palindroma");
             niz = scanner.nextLine();
-            niz = String.join( "", niz.split(" "));
+
             if (Palindrom.isPalindrome(niz)) {
                 System.out.println("Je palindrom");
             } else {
